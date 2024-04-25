@@ -1,0 +1,95 @@
+theory:
+
+checkpoint security=>article&& live attacks map view
+recon=>active=>interact with target(nmap),passive=>OSINT
+incident response team=>NIST=>identy->protect->Detect->Respond->Recover(NIST=>Standard)
+host based intrusion detection system=>HIDS
+NIDS=>network based intrusion detection system
+
+
+Web_app:
+
+25 Methods{
+GET
+POST
+PUT
+DELETE
+}
+========================================
+Testing{
+production testing=>live test
+Staging test=>actual copy of website
+QA testing=>test build
+}
+========================================
+respone code{
+1xx=>informational message
+2xx=>ok
+3xx=>redirect
+4xx=>client side error
+5xx=>server side error
+}
+========================================
+website{
+web protocol=>http/https
+TLD=>www.google
+domain=>example.com(google.com)
+subDomain=>etc.example.com(mail.google.com)
+Linux website default path=> /var/www/html/
+windows default path for website=>C:\inetpub\wwwroot
+ls -l <path>=>list the details with file extension
+HTTP/2=>https
+http/1.1=>http
+/=>index page
+enumeration=>discovering
+username enumeration,phone number enumeration,etc....
+WAF=>webb app fireWall=>rate limiting
+sec list=>enumerating subdomain
+
+
+
+
+
+VAPT:
+
+VAPT=>Vulnerability Assessment pentestng
+CIA=>
+NVD=>National Vulnerability Db
+cvss=>common vulnub scoring system
+accunetix,Nessus,openVAS=>automated vulnub scanner;
+API-vulnub;
+cloud vulnub
+Policy => Controlling what to be done and when to be done => to govern entire organisation
+Procedure => step by step procees to follow the policy
+Standard => Segregating department wise => for folllowing the regulations, Standards created
+Regulation => made or (given) only by government=>HIPA,PCIDSS,EU,GDPR => Genral Data Protection
+VAT=>True Negative (X)(eruka koodathu)
+SAST=>Static Application Security Testing
+process{
+1=>Information Gathering
+2=>Scanning
+3=>Gaining Access(find exp
+4=>Maintaining Access(Persistence)
+5=>Clearing Tracks(remove didital footprint)
+}
+
+NDA=>
+Abstract => Executive Summary
+Network
+Application
+Physical
+IOT/Mobile
+Internal=>whitebox;
+External=>blackbox
+ZAproxy
+Nessus Essentials=>effective 
+directory traversal
+SQL{
+blind sql
+error based sql
+time based sql
+boolean based sql
+}
+
+
+
